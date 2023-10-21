@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lindsey M. | Front-End Developer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- External CSS -->
+    <!-- Connects this file to style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- div serves as the wrapper of the whole layout, everything we will add to the site we will add here -->
+        <!-- class is an attribute to name our div -->
+        <!-- Dahil sa container at bootstap, nagka-indention yung site natin -->
+        <!-- Once we change container to container-fluid, mawawala yung margin/indention -->
+        <!-- We use classes to add additional styling and to make styling easier through Bootstrap -->
+        <!-- id is an attribute to name a tag uniquely -->
+        <section class="text-center img-fluid mt-5" id="landing">
+            <!-- mt = margin on/from the top -->
+                <!-- Only accepts 1-5 for values -->
+                <!-- Makes our elemets center easier due to bootstrap -->
+            <!-- img-fluid makes our image avoid overflowing -->
+            <h1>Front-End Developer</h1>
+            <!-- h1 = header -->
+            <p>Hi! I am Linds and I am currently self-learning Front-End Development.</p>
+            <!-- p = paragraph -->
+            <img src="images/1x1 Picture.jpg" id="profile">
+            <a href="mailto:lindsey.miras@gmail.com" class="btn btn-success btn-lg mt-3">Let's work together!</a>
+            <!-- We will place links here -->
+            <!-- Through bootstrap, button colors are automatically the following:
+                btn-success: green
+                btn-danger: red
+            -->
+        </section>
+
+    </div>
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- To deploy -->
+<!-- 
+1. Open fcb-portfolio
+2. Open git bash
+3. Use command: git config --global user.name "username used in github"
+4. Use command: git config --global user.email "email we used to create our github account"
+5. Use command: git init 
+6. Use command: git add -A
+7. Use command: git commit -m :Added fcb portfolio"
+-->
+
+</body>
+</html>
